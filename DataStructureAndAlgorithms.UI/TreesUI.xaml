@@ -1,0 +1,102 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+        x:Class="DataStructureAndAlgorithms.UI.TreesUI"
+        Title="Basics" WindowState="Maximized" d:DesignWidth="936.358" d:DesignHeight="926.842" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition MaxWidth="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox x:Name="lstInput" Grid.Row="0" Grid.Column="0"/>
+        <ListBox  x:Name="lstOutput" Grid.Row="0" Grid.Column="2"/>
+
+        <Border Grid.Row="0" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+            <ScrollViewer Grid.Row="0" Grid.Column="4" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <StackPanel>
+                        <GroupBox VerticalAlignment="Top" HorizontalAlignment="Left">
+                            <GroupBox.Header>
+                                <TextBlock Text="Choose Input Type"/>
+                            </GroupBox.Header>
+          
+                        </GroupBox>
+                    </StackPanel>
+
+                    <TextBlock FontWeight="Bold" Margin="10"><Run Text="Comparison Based Algorithms"/></TextBlock>
+                    <StackPanel Margin="15" Orientation="Horizontal">
+                        <TextBlock><Run Text="Number of elements to sort:"/></TextBlock>
+                        <TextBox Margin="5,0,0,0" x:Name="txtNumberOfElements" Width="65" Text="1000"/>
+                    </StackPanel>
+
+                  </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+      
+
+        <WrapPanel Grid.Row="1" Grid.ColumnSpan="5">
+            <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                <StackPanel Orientation="Vertical">
+                    <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                        <StackPanel Margin="15">
+                            <!--<TextBlock  Name="txtAnalysisCountSort">Analysis</TextBlock>-->
+                            <!--<TextBlock  Name="txtTotalTimeCountSort">Total time:</TextBlock>-->
+                            <Button  x:Name="btnQuickFind"  Click="SortClick" Grid.Column="2" Content="Quick Find"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+               
+            </Border>
+
+            <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                <StackPanel Orientation="Vertical">
+                    <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                        <StackPanel Margin="15">
+                            <!--<TextBlock  Name="txtAnalysisCountSort">Analysis</TextBlock>-->
+                            <!--<TextBlock  Name="txtTotalTimeCountSort">Total time:</TextBlock>-->
+                            <Button  x:Name="btnQuickUnion"  Click="SortClick" Grid.Column="2" Content="Quick Union"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Border>
+
+        </WrapPanel>
+
+        <WrapPanel Grid.Row="2" Grid.ColumnSpan="5">
+            <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                <StackPanel Margin="15">
+                    <StackPanel Margin="20" Orientation="Horizontal">
+                        <TextBlock Text="A"></TextBlock>
+                        <TextBox Margin="50,0,0,0" x:Name="txtGCDNumberA" Width="100" Text="357"/>
+                    </StackPanel>
+                    <StackPanel Margin="20" Orientation="Horizontal">
+                        <TextBlock Text="B"></TextBlock>
+                        <TextBox Margin="50,0,0,0" x:Name="txtGCDNumberB" Width="100" Text="234"/>
+                    </StackPanel>
+
+                    <TextBlock  x:Name="txtAnalysisGCD"><Run Text="Analysis"/></TextBlock>
+                    <TextBlock  x:Name="txtTotalTimeGCD"><Run Text="Total time:"/></TextBlock>
+                    <TextBlock  x:Name="txtResultGCD"><Run Text="Result:"/></TextBlock>
+
+                    <Button  x:Name="btnGCD" Margin="10" Click="SortClick" Grid.Column="2" Content="Greatest Common Divisior"/>
+                </StackPanel>
+            </Border>
+        </WrapPanel>
+    </Grid>
+</Window>

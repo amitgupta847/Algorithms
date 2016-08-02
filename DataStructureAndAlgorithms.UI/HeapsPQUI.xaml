@@ -1,0 +1,88 @@
+﻿<Window x:Class="DataStructureAndAlgorithms.UI.HeapsPQUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Heaps and Priority Queues" WindowState="Maximized">
+    <Grid Name="gridMain">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="80"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Row="0" Grid.Column="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <StackPanel Grid.Row="0" Grid.Column="0">
+                <TextBlock>Input</TextBlock>
+                <ListBox Name="lstInput" ></ListBox>
+            </StackPanel>
+        </ScrollViewer>
+
+        <ScrollViewer Grid.Row="0" Grid.Column="2" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <StackPanel Grid.Row="0" Grid.Column="2">
+                <TextBlock>Heap Structure</TextBlock>
+                <ListBox Name="lstHeap" ></ListBox>
+            </StackPanel>
+        </ScrollViewer>
+
+        <ScrollViewer Grid.Row="0" Grid.Column="4" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <StackPanel >
+                <TextBlock>Sorted Output</TextBlock>
+                <ListBox  Name="lstOutput" ></ListBox>
+            </StackPanel>
+        </ScrollViewer>
+
+
+        <ScrollViewer Grid.Row="0" Grid.Column="6" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <StackPanel Grid.Row="0" Grid.Column="4">
+                <StackPanel>
+                    <GroupBox VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <GroupBox.Header>
+                            <TextBlock Text="Choose Input Type"></TextBlock>
+                        </GroupBox.Header>
+                        <StackPanel x:Name="sSelectionType" Orientation="Vertical" >
+                            <RadioButton x:Name="rdoBtnUnsorted" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="UnSorted" IsChecked="True"></RadioButton>
+                            <RadioButton x:Name="rdoBtnUnsortedWithDulicates" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="UnSorted With Duplicates" IsChecked="False"></RadioButton>
+                            <RadioButton x:Name="rdoBtnAlreaySortedAsc" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="Already Sorted In Ascending Order" IsChecked="False"></RadioButton>
+                            <RadioButton x:Name="rdoBtnAlreaySortedDesc"  Checked="rdoBtnSelectionType_Checked" Margin="10" Content="Already Sorted In Desending Order" IsChecked="False" ></RadioButton>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+
+                <StackPanel Margin="15" Orientation="Horizontal">
+                    <TextBlock>Number of elements to sort:</TextBlock>
+                    <TextBox Margin="5,0,0,0" Name="txtNumberOfElements" Width="65">50</TextBox>
+                </StackPanel>
+                <Button  Click="LoadDataRefresh">Load Data/Refresh</Button>
+
+                <StackPanel Orientation="Vertical">
+                    <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                        <StackPanel Margin="15">
+                            <TextBlock  >Analysis</TextBlock>
+                            <TextBlock  Name="txtTotalTimeBuildHeap">Total time:</TextBlock>
+                            <Button  Name="btnBuildHeap"  Click="SortClick" Grid.Column="2">Build Heap</Button>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                        <StackPanel Margin="15">
+                            <TextBlock >Analysis</TextBlock>
+                            <TextBlock  Name="txtTotalTimeHeapSort">Total time:</TextBlock>
+                            <Button  Name="btnHeapSort"  Click="SortClick" Grid.Column="2">Heap Sort</Button>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

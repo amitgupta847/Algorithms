@@ -1,0 +1,227 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="DataStructureAndAlgorithms.UI.BasicsUI"
+        Title="Basics" WindowState="Maximized" d:DesignWidth="936.358" d:DesignHeight="926.842" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition MaxWidth="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox x:Name="lstInput" Grid.Row="0" Grid.Column="0"/>
+        <ListBox  x:Name="lstOutput" Grid.Row="0" Grid.Column="2"/>
+
+        <Border Grid.Row="0" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+            <ScrollViewer Grid.Row="0" Grid.Column="4" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <StackPanel>
+                        <GroupBox VerticalAlignment="Top" HorizontalAlignment="Left">
+                            <GroupBox.Header>
+                                <TextBlock Text="Choose Input Type"/>
+                            </GroupBox.Header>
+                            <StackPanel x:Name="sSelectionType" Orientation="Vertical" >
+                                <RadioButton x:Name="rdoBtnUnsorted" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="UnSorted" IsChecked="True"/>
+                                <RadioButton x:Name="rdoBtnUnsortedWithDulicates" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="UnSorted With Duplicates" IsChecked="False"/>
+                                <RadioButton x:Name="rdoBtnAlreaySortedAsc" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="Already Sorted In Ascending Order" IsChecked="False"/>
+                                <RadioButton x:Name="rdoBtnAlreaySortedDesc"  Checked="rdoBtnSelectionType_Checked" Margin="10" Content="Already Sorted In Desending Order" IsChecked="False" />
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+
+                    <TextBlock FontWeight="Bold" Margin="10"><Run Text="Comparison Based Algorithms"/></TextBlock>
+                    <StackPanel Margin="15" Orientation="Horizontal">
+                        <TextBlock><Run Text="Number of elements to sort:"/></TextBlock>
+                        <TextBox Margin="5,0,0,0" x:Name="txtNumberOfElements" Width="65" Text="1000"/>
+                    </StackPanel>
+                    <Button  Click="LoadDataRefresh" Content="Load Data/Refresh"/>
+
+                    <StackPanel Orientation="Vertical">
+
+                       
+
+                        
+
+                        <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <StackPanel Margin="15">
+                                <TextBlock  x:Name="txtAnalysisSelectionSort"><Run Text="Analysis"/></TextBlock>
+                                <TextBlock  x:Name="txtTotalTimeSelectionSort"><Run Text="Total time:"/></TextBlock>
+                                <Button  x:Name="btnSelection"  Click="SortClick" Grid.Column="2" Content="Selection Sort"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <StackPanel Margin="15">
+                                <TextBlock  x:Name="txtAnalysisBubbleSort"><Run Text="Analysis"/></TextBlock>
+                                <TextBlock  x:Name="txtTotalTimeBubbleSort"><Run Text="Total time:"/></TextBlock>
+                                <Button  x:Name="btnBubbleSort"  Click="SortClick" Grid.Column="2" Content="Bubble Sort"/>
+                            </StackPanel>
+                        </Border>
+
+
+                    </StackPanel>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <Border Grid.Row="0" Grid.Column="6"  BorderBrush="Black" BorderThickness="1" >
+            <ScrollViewer Grid.Row="0" Grid.Column="6" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <StackPanel Grid.Row="0" Grid.Column="6">
+                    <TextBlock FontWeight="Bold" Margin="10"><Run Text="Divide and Conquer Based Algorithms"/></TextBlock>
+                    <StackPanel>
+                        <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <StackPanel Margin="15">
+                                <TextBlock  x:Name="txtAnalysisQuickSort"><Run Text="Analysis"/></TextBlock>
+                                <TextBlock  x:Name="txtTotalTimeQuickSort"><Run Text="Total time:"/></TextBlock>
+                                <Button  x:Name="btnQuickSort"  Click="SortClick" Grid.Column="2" Content="Quick Sort"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <StackPanel Margin="15">
+                                <TextBlock  x:Name="txtAnalysisMergeSort"><Run Text="Analysis"/></TextBlock>
+                                <TextBlock  x:Name="txtTotalTimeMergeSort"><Run Text="Total time:"/></TextBlock>
+                                <Button  x:Name="btnMergeSort"  Click="SortClick" Grid.Column="2" Content="Merge Sort"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+
+                    <StackPanel>
+                        <TextBlock FontWeight="Bold" Margin="10"><Run Text="Input Restriction Based Algorithms"/></TextBlock>
+                        <!--<GroupBox VerticalAlignment="Top" HorizontalAlignment="Left">-->
+                        <!--<GroupBox.Header>
+                            <TextBlock Text="Choose Input Type"></TextBlock>
+                        </GroupBox.Header>-->
+                        <!--<StackPanel x:Name="sSelectionType2" Orientation="Vertical" >
+                            <RadioButton x:Name="1" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="UnSorted" IsChecked="True"></RadioButton>
+                            <RadioButton x:Name="2" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="UnSorted With Duplicates" IsChecked="False"></RadioButton>
+                            <RadioButton x:Name="3" Checked="rdoBtnSelectionType_Checked" Margin="10" Content="Already Sorted In Ascending Order" IsChecked="False"></RadioButton>
+                            <RadioButton x:Name="4"  Checked="rdoBtnSelectionType_Checked" Margin="10" Content="Already Sorted In Desending Order" IsChecked="False" ></RadioButton>
+                        </StackPanel>-->
+                        <!--</GroupBox>-->
+                    </StackPanel>
+
+                    <StackPanel Margin="15" Orientation="Horizontal">
+                        <TextBlock><Run Text="Range elements to sort:"/></TextBlock>
+                        <TextBox Margin="5,0,0,0" x:Name="txtStartRange" Width="65" Text="100"/>
+                        <TextBox Margin="5,0,0,0" x:Name="txtEndRange" Width="65" Text="500"/>
+                    </StackPanel>
+                    <Button  Click="LoadDataRefresh" Content="Load Data/Refresh"/>
+
+
+                    <StackPanel Orientation="Vertical">
+                        <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <StackPanel Margin="15">
+                                <TextBlock  x:Name="txtAnalysisRadixSort"><Run Text="Analysis"/></TextBlock>
+                                <TextBlock  x:Name="txtTotalTimeRadixSort"><Run Text="Total time:"/></TextBlock>
+                                <Button  x:Name="btnRadixSort"  Click="SortClick" Grid.Column="2" Content="Radix Sort"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical">
+                        <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <StackPanel Margin="15">
+                                <TextBlock  x:Name="txtAnalysisCountSort"><Run Text="Analysis"/></TextBlock>
+                                <TextBlock  x:Name="txtTotalTimeCountSort"><Run Text="Total time:"/></TextBlock>
+                                <Button  x:Name="btnCountSort"  Click="SortClick" Grid.Column="2" Content="Count Sort"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+
+                    <StackPanel Orientation="Vertical">
+                        <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <StackPanel Margin="15">
+                                <!--<TextBlock  Name="txtAnalysisCountSort">Analysis</TextBlock>-->
+                                <!--<TextBlock  Name="txtTotalTimeCountSort">Total time:</TextBlock>-->
+                                <Button  x:Name="btnQuickFind"  Click="SortClick" Grid.Column="2" Content="Quick Find"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical">
+                        <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                            <StackPanel Margin="15">
+                                <!--<TextBlock  Name="txtAnalysisCountSort">Analysis</TextBlock>-->
+                                <!--<TextBlock  Name="txtTotalTimeCountSort">Total time:</TextBlock>-->
+                                <Button  x:Name="btnQuickUnion"  Click="SortClick" Grid.Column="2" Content="Quick Union"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+        
+        <WrapPanel Grid.Row="1" Grid.ColumnSpan="5">
+            <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                <StackPanel Margin="15">
+                    <StackPanel Margin="20" Orientation="Horizontal">
+                        <TextBlock Text="Number"></TextBlock>
+                        <TextBox Margin="50,0,0,0" x:Name="txtFibNumberRec" Width="100" Text="5"/>
+                    </StackPanel>
+
+                    <TextBlock  x:Name="txtAnalysisFibocciRecursive"><Run Text="Analysis"/></TextBlock>
+                    <TextBlock  x:Name="txtTotalTimeFibocciRecursive"><Run Text="Total time:"/></TextBlock>
+                    <TextBlock  x:Name="txtResultFibocciRecursive"><Run Text="Result:"/></TextBlock>
+
+                    <Button  x:Name="btnFibRec" Margin="10" Click="SortClick" Grid.Column="2" Content="Fibonoci Recursive Solution"/>
+                </StackPanel>
+            </Border>
+
+           <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                <StackPanel Margin="15">
+                    <StackPanel Margin="20" Orientation="Horizontal">
+                        <TextBlock Text="Number"></TextBlock>
+                        <TextBox Margin="50,0,0,0" x:Name="txtFibNumberNonRec" Width="100" Text="50"/>
+                    </StackPanel>
+
+                    <TextBlock  x:Name="txtAnalysisFibocciNonRecursive"><Run Text="Analysis"/></TextBlock>
+                    <TextBlock  x:Name="txtTotalTimeNonFibocciNonRecursive"><Run Text="Total time:"/></TextBlock>
+                    <TextBlock  x:Name="txtResultFibocciNonRecursive"><Run Text="Result:"/></TextBlock>
+
+                    <Button  x:Name="btnFibNonRec" Margin="10" Click="SortClick" Grid.Column="2" Content="Fibonoci Non Recursive Sort"/>
+
+
+                </StackPanel>
+            </Border>
+
+        </WrapPanel>
+
+        <WrapPanel Grid.Row="2" Grid.ColumnSpan="5">
+            <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                <StackPanel Margin="15">
+                    <StackPanel Margin="20" Orientation="Horizontal">
+                        <TextBlock Text="A"></TextBlock>
+                        <TextBox Margin="50,0,0,0" x:Name="txtGCDNumberA" Width="100" Text="357"/>
+                    </StackPanel>
+                    <StackPanel Margin="20" Orientation="Horizontal">
+                        <TextBlock Text="B"></TextBlock>
+                        <TextBox Margin="50,0,0,0" x:Name="txtGCDNumberB" Width="100" Text="234"/>
+                    </StackPanel>
+
+                    <TextBlock  x:Name="txtAnalysisGCD"><Run Text="Analysis"/></TextBlock>
+                    <TextBlock  x:Name="txtTotalTimeGCD"><Run Text="Total time:"/></TextBlock>
+                    <TextBlock  x:Name="txtResultGCD"><Run Text="Result:"/></TextBlock>
+
+                    <Button  x:Name="btnGCD" Margin="10" Click="SortClick" Grid.Column="2" Content="Greatest Common Divisior"/>
+                </StackPanel>
+            </Border>
+        </WrapPanel>
+    </Grid>
+</Window>

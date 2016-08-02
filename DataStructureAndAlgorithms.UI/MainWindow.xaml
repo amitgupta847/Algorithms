@@ -1,0 +1,19 @@
+﻿<Window x:Class="DataStructureAndAlgorithms.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="500">
+    <Grid>
+        <UniformGrid>
+            <Button Name="btnBasics" Click="btnOptionClick">Basics</Button>
+            <Button Name="btnSorting" Click="btnOptionClick">Sorting</Button>
+            <Button Name="btnSearching" Click="btnOptionClick">Searching</Button>
+            <Button Name="btnHeaps" Click="btnOptionClick">Heap and Priority Queues</Button>
+            <Button Name="btnGraph" Click="btnOptionClick">Graphs</Button>
+            <Button Name="btnTrees" Click="btnOptionClick">Trees</Button>
+            <Button Name="btnDCProblems" Click="btnOptionClick">Divide and Conquer</Button>
+            <Button Name="btnDynamic" Click="btnOptionClick">Dynamic</Button>
+            <Button Name="btnGreedy" Click="btnOptionClick">Greedy</Button>
+
+        </UniformGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,53 @@
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\bin\Debug\DataStructureAndAlgorithms.UI.exe.config
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\bin\DataStructureAndAlgorithms.UI.exe.config
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\bin\DataStructureAndAlgorithms.UI.exe
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\bin\DataStructureAndAlgorithms.UI.pdb
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.csprojResolveAssemblyReference.cache
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\SortingUI.baml
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\MainWindow.baml
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\SortingUI.g.cs
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\MainWindow.g.cs
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\App.g.cs
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI_MarkupCompile.cache
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.g.resources
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.Properties.Resources.resources
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.csproj.GenerateResource.Cache
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.exe
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.pdb
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\HeapsPQUI.baml
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\GraphUI.baml
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\HeapsPQUI.g.cs
+D:\Amit\Code Samples\Practice\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\GraphUI.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\bin\DataStructureAndAlgorithms.UI.exe.config
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.exe
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.pdb
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\bin\DataStructureAndAlgorithms.UI.exe
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\bin\DataStructureAndAlgorithms.UI.pdb
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.csprojResolveAssemblyReference.cache
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\HeapsPQUI.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\GraphUI.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\SortingUI.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\MainWindow.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\HeapsPQUI.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\GraphUI.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\SortingUI.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\MainWindow.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\App.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI_MarkupCompile.cache
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.g.resources
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.Properties.Resources.resources
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI.csproj.GenerateResource.Cache
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DynamicProgUI.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DynamicProgUI.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\GreedyUI.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\GreedyUI.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\BasicsUI.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\BasicsUI.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\Clock.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\Clock.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DataStructureAndAlgorithms.UI_MarkupCompile.lref
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\TreesUI.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\TreesUI.g.cs
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DivideConquerUI.baml
+D:\Amit\Pen drive\Code Samples\1. MainProjects\DataStructureAndAlgorithms\DataStructureAndAlgorithms.UI\obj\Debug\DivideConquerUI.g.cs
