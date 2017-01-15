@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DataStructureAndAlgorithms.BusinessServices
 {
     [Serializable]
-    public class City
+    public class City:IComparable<City>
     {
         public City() { }
 
@@ -16,8 +16,15 @@ namespace DataStructureAndAlgorithms.BusinessServices
             Name = name;
         }
 
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
+        public int CompareTo(City other)
+        {
+            if (other == null)
+                return -1;
+
+            return this.Name.CompareTo(other.Name);
+        }
 
         public override string ToString()
         {

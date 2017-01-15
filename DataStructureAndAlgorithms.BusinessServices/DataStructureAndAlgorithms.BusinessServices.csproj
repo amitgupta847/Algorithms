@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataStructureAndAlgorithms.BusinessServices</RootNamespace>
     <AssemblyName>DataStructureAndAlgorithms.BusinessServices</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -55,10 +56,14 @@
     <Compile Include="Graphs\Edge.cs" />
     <Compile Include="Graphs\Graph.cs" />
     <Compile Include="Graphs\GraphNode.cs" />
+    <Compile Include="Graphs\New\DirectedGraph.cs" />
+    <Compile Include="Graphs\New\Edge.cs" />
+    <Compile Include="Graphs\New\Vertex.cs" />
     <Compile Include="Greedy\MinimumFuelRefill.cs" />
     <Compile Include="HeapsPriorityQueues\HeapElement.cs" />
     <Compile Include="HeapsPriorityQueues\MinQueueUsingArray.cs" />
     <Compile Include="HeapsPriorityQueues\PriorityQueue.cs" />
+    <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="ObjectToSort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,6 +73,7 @@
     <Compile Include="Sorting and Union\Union\QuickUnion.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DisjointDataSet\" />
     <Folder Include="Trees\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

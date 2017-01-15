@@ -20,5 +20,6 @@ namespace DataStructureAndAlgorithms.BusinessServices
             Data = data;
             Key = key;
         }
+        
     }
 }
