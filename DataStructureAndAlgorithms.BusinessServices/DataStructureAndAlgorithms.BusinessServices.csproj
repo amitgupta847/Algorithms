@@ -52,6 +52,7 @@
     <Compile Include="DynamicProgramming\NumberPermutation.cs" />
     <Compile Include="DynamicProgramming\SumOfSubSet.cs" />
     <Compile Include="DynamicProgramming\SumOfSubsetLikeQueens.cs" />
+    <Compile Include="DynamicProgramming\TestDP.cs" />
     <Compile Include="DynamicProgramming\TextJustification.cs" />
     <Compile Include="Graphs\Edge.cs" />
     <Compile Include="Graphs\Graph.cs" />
