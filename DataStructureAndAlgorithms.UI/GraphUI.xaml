@@ -127,6 +127,14 @@
                             <Button  Name="btnRadixSort"  Click="SortClick" Grid.Column="2">Radix Sort</Button>
                         </StackPanel>
                     </Border>
+
+                    <Border Margin="15" BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                        <StackPanel Margin="15">
+                            <TextBlock  Name="txtAnalysisKruskal">Analysis</TextBlock>
+                            <TextBlock  Name="txtTotalKruskal">Total time:</TextBlock>
+                            <Button  Name="btnKruskalMST" Click="btnKruskalMST_Click"  Grid.Column="2">Kruskal MST</Button>
+                        </StackPanel>
+                    </Border>
                 </StackPanel>
 
             </StackPanel>

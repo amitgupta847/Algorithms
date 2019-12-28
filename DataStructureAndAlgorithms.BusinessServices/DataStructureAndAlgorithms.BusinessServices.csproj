@@ -44,6 +44,7 @@
     <Compile Include="Basics\Fibonacci.cs" />
     <Compile Include="CommonOperations.cs" />
     <Compile Include="DataGenerator.cs" />
+    <Compile Include="DisjointSets\UnionByRank.cs" />
     <Compile Include="DivideAndConquer\CountingInversion.cs" />
     <Compile Include="DivideAndConquer\PeakFinding.cs" />
     <Compile Include="DomainClasses\City.cs" />
@@ -52,11 +53,13 @@
     <Compile Include="DynamicProgramming\NumberPermutation.cs" />
     <Compile Include="DynamicProgramming\SumOfSubSet.cs" />
     <Compile Include="DynamicProgramming\SumOfSubsetLikeQueens.cs" />
-    <Compile Include="DynamicProgramming\TestDP.cs" />
     <Compile Include="DynamicProgramming\TextJustification.cs" />
+    <Compile Include="Graphs\BellmanFord.cs" />
+    <Compile Include="Graphs\Dijkstra.cs" />
     <Compile Include="Graphs\Edge.cs" />
     <Compile Include="Graphs\Graph.cs" />
     <Compile Include="Graphs\GraphNode.cs" />
+    <Compile Include="Graphs\KruskalMST.cs" />
     <Compile Include="Graphs\New\DirectedGraph.cs" />
     <Compile Include="Graphs\New\Edge.cs" />
     <Compile Include="Graphs\New\Vertex.cs" />
@@ -74,7 +77,6 @@
     <Compile Include="Sorting and Union\Union\QuickUnion.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DisjointDataSet\" />
     <Folder Include="Trees\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

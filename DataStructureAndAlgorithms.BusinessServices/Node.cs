@@ -15,10 +15,10 @@ namespace DataStructureAndAlgorithms.BusinessServices
 
         public Node() { }
 
-        public Node(T data, int key)
+        public Node(T data)
         {
             Data = data;
-            Key = key;
+            Key = 0;
         }
         
     }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureAndAlgorithms.UI", "DataStructureAndAlgorithms.UI\DataStructureAndAlgorithms.UI.csproj", "{97174E58-6B97-46F1-8A85-0B3F28C4F94F}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -13,6 +13,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo_UnitTests", "Algo_UnitTests\Algo_UnitTests.csproj", "{4D5B3A6C-B2DF-40B3-A517-A0CC8931ADCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "Not to checkin - git hub lib\C-Sharp-Algorithms-master\DataStructures\DataStructures.csproj", "{464251A0-3667-42BA-A3D5-0581D65C442B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1_LeetProblems", "ConsoleApp1_LeetProblems\ConsoleApp1_LeetProblems.csproj", "{8CE8FC37-EB01-4172-A84B-DB7ED19D2450}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,8 +38,15 @@ Global
 		{464251A0-3667-42BA-A3D5-0581D65C442B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464251A0-3667-42BA-A3D5-0581D65C442B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464251A0-3667-42BA-A3D5-0581D65C442B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE8FC37-EB01-4172-A84B-DB7ED19D2450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE8FC37-EB01-4172-A84B-DB7ED19D2450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE8FC37-EB01-4172-A84B-DB7ED19D2450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE8FC37-EB01-4172-A84B-DB7ED19D2450}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86D079A0-DBEE-4C19-A7B0-66AF2FE77E01}
 	EndGlobalSection
 EndGlobal
