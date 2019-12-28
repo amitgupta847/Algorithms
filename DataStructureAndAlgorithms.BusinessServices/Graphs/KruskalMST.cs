@@ -49,7 +49,7 @@ namespace DataStructureAndAlgorithms.BusinessServices.Graphs
       if (output.Edges.Count == 4)  
       { 
         //and cost total should be 11.
-      //passed
+      //passed if criteria is met.
       }
 
     }
